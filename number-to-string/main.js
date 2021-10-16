@@ -1,19 +1,13 @@
 function numberToString(num) {
-    return(num.toString())
-  }
+  return num.toString();
+}
 
+function numberToString(num) {
+  return String(num);
+}
 
-  function numberToString(num) {
-    return String(num);
-  }
+const numberToString = (num) => `${num}`;
 
-
-  const numberToString = num => `${num}`;
-
-  
-  function numberToString(num) {
-    return `${num}`;
-  }
-
-
-
+function numberToString(num) {
+  return `${num}`;
+}
